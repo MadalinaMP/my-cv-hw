@@ -1,21 +1,12 @@
-#myCV {
+#myCV, #aboutMePage {
     font-family: "Arial Nova";
     border: 5px solid white;
     box-shadow: 0px -1px 19px -2px rgba(120,120,120,1);
-    background-image: url("src/paper.jpg");
-    background-repeat: repeat;
+    background-color: rgba(221, 207, 201);
     border-radius: 200px 0px 90px 0px;;
 }
 
-h2 {
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-}
-
 .centeringDiv {
-    
     margin: 0 auto;
     width: 785px;
     padding-top: 110px;
@@ -23,27 +14,17 @@ h2 {
     padding-bottom: 110px;
 }
 
-#info {
-    font-size: 20px;
-    margin-top: 10px;
+p {
+    padding: 1px;
+    color: white;
+    font-size: 15px;
 }
 
 #tableInfo {
-    background-color: rgba(255, 255, 255, 0.411);
+    background-color: rgba(255, 255, 255, 0.158);
     box-shadow: 0px -1px 19px -2px rgba(255, 255, 255, 0.664);
     border: 10px solid white;
     border-collapse: collapse;
-}
-
-.myInfo {
-    color:white;
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-.infoList {
-    list-style-type: none;
-    display: inline-block;
 }
 
 .infoBorders {
@@ -52,20 +33,158 @@ h2 {
     padding: 10px;
 }
 
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+#theHeader {
+    font-size: 40px;
+}
+
+#anchors {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.myAnchor {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.836);
+}
+
+.myAnchor:hover {
+    color: white;
+}
+
+#info {
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.233);
+    height: 200px;
+}
+
 #myPhoto {
     width: 150px;
     height: 141px;
     float: left;
-    margin: 0 10px 10px 50px;
+    margin: 26px 10px 10px 50px;
     border: 2px solid white;
     box-shadow: 0px -1px 13px -6px rgba(120,120,120,1);
 }
 
+#infoList {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 45px;
+}
+
+.myInfo {
+    color:white;
+    font-weight: bold;
+}
+
+.myInfoValues {
+    color: rgba(128, 128, 128, 0.822);
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.myLinks {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.822);
+}
+
+.myLinks:hover {
+    color: gray;
+}
+
+#experienta {
+    background-color: rgba(255, 255, 255, 0.233);
+    height: 250px;
+}
+
+#expTitle, #contactMe, #ScoalaInformala {
+    padding-top:23px;
+}
+
 #experienceTable {
-    border: 1px solid black;
+    margin: 0 auto;
+    color: gray;
+    border: 5px solid white;
     border-collapse: collapse;
+    text-align: center;
 }
 
 .borders {
-    border-top: 1px solid black;
+    border: 5px solid white;
+    padding: 10px 30px 10px 30px;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+#cell1, #cell2, #cell3 {
+    background-color: rgba(255, 255, 255, 0.582);
+    font-weight: bold;
+}
+
+#contact {
+    background-color: rgba(255, 255, 255, 0.233);
+    height: 400px;
+}
+
+.centerButtons {
+    padding-top: 10px;
+    text-align: center;
+}
+
+label {
+    color: gray;
+    font-weight: bold;
+}
+
+input[type=text] {
+    background-color:rgba(255, 255, 255, 0.418);
+    color:rgba(128, 128, 128, 0.76);
+    padding: 5px 10px 5px 10px;
+    border: 3px solid white;
+    width: 380px;
+    margin: 5px 0px 10px 0px;
+}
+
+textarea {
+    background-color:rgba(255, 255, 255, 0.418);
+    color:rgba(128, 128, 128, 0.76);
+    padding: 5px 10px 5px 10px;
+    border: 3px solid white;
+    width: 380px;
+    height: 100px;
+    margin: 5px 0px 10px 0px;
+}
+
+input[type=submit], input[type=reset], input[type=button] {
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    border: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
+    background-color: rgba(255, 255, 255, 0.521);
+}
+
+#iFrameSI {
+    background-color: rgba(255, 255, 255, 0.233);
+    height: 400px;
+}
+
+iframe {
+    width: 600px;
+    height: 300px;
 }

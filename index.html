@@ -11,67 +11,72 @@
         <table id="tableInfo">
             <tr>
                 <td class="infoBorders">
-                    <h2>My CV</h2>
+                    <h2 id="theHeader">My CV</h2>
                 </td>
             </tr>
 
             <tr>
                 <td class="infoBorders">
-                    <div class="anchors">
-                        <a href="about.html">Go to about.html</a> •
-                        <a href="#experienta">Go to Experienta </a> •
-                        <a href="#contact">Go to Contact</a>
+                    <div id="anchors">
+                        <a href="about.html" class="myAnchor">Go to About Me</a> •
+                        <a href="#experienta" class="myAnchor">Go to Experienta </a> •
+                        <a href="#contact" class="myAnchor">Go to Contact</a>
                     </div>
 
                     <div id="info">
                         <img src="src/me.JPG" id="myPhoto">
-                        <ul class="infoList">
-                            <li><span class="myInfo">Name:</span> Pui Madalina-Maria</li>
-                            <li><span class="myInfo">Telefon:</span> 07** *** ***</li>
-                            <li><span class="myInfo">Github:</span> <a href="https://github.com/MadalinaMP"
-                                    target="_blank">github.com/MadalinaMP</a>
+                        <ul id="infoList">
+                            <li><span class="myInfo">Name:</span> <span class="myInfoValues">Pui Madalina-Maria</span>
                             </li>
-                            <li><span class="myInfo">E-mail:</span> <a
-                                    href="mailto:madalinapuimp@gmail.com">madalinapuimp@gmail.com</a></li>
+                            <li><span class="myInfo">Telefon:</span> <span class="myInfoValues">07** *** ***</span></li>
+                            <li><span class="myInfo">Github:</span> <span class="myInfoValues"><a
+                                        href="https://github.com/MadalinaMP" target="_blank"
+                                        class="myLinks">github.com/MadalinaMP</a></span>
+                            </li>
+                            <li><span class="myInfo">E-mail:</span> <span class="myInfoValues"><a
+                                        href="mailto:madalinapuimp@gmail.com"
+                                        class="myLinks">madalinapuimp@gmail.com</a></span></li>
                         </ul>
                     </div>
 
-                    <div id="experinta">
-                        <h2>Experienta profesionala</h2>
+                    <div id="experienta">
+                        <h2 id="expTitle">Experienta profesionala</h2>
                         <table id="experienceTable">
-                            <tr class="borders">
-                                <td>An</td>
-                                <td>Companie</td>
-                                <td>Pozitie</td>
+                            <tr>
+                                <td class="borders" id="cell1">An</td>
+                                <td class="borders" id="cell2">Companie</td>
+                                <td class="borders" id="cell3">Pozitie</td>
                             </tr>
-                            <tr class="borders">
-                                <td>2018</td>
-                                <td>Msg System</td>
-                                <td>Programator</td>
+                            <tr>
+                                <td class="borders">2018</td>
+                                <td class="borders">Msg System</td>
+                                <td class="borders">Programator</td>
                             </tr>
-                            <tr class="borders">
-                                <td>2016</td>
-                                <td>Freelancer</td>
-                                <td>Programator</td>
+                            <tr>
+                                <td class="borders">2016</td>
+                                <td class="borders">Freelancer</td>
+                                <td class="borders">Programator</td>
                             </tr>
                         </table>
                     </div>
 
                     <div id="contact">
-                        <h2>Contact me</h2>
-                        <form>
+                        <h2 id="contactMe">Contact me</h2>
+                        <form class="centerButtons">
                             <label for="title">Titlu:</label><br>
-                            <input> <br>
+                            <input type="text"> <br>
                             <label for="message">Mesaj: </label><br>
                             <textarea></textarea><br>
-                            <input type="submit" value="submit">
-                            <input type="reset" value="reset">
+                            <input type="submit" value="Submit" title="Click to submit the message.">
+                            <input type="reset" value="Reset" title="Click to clear the texboxes.">
                         </form>
                     </div>
 
-                    <h2>GitHub</h2>
-                    <iframe name="iframeGitHub" width="600" height="400" src="https://github.com/MadalinaMP"
-                        frameborder="yes" scrolling="yes"></iframe>
+                    <div id="iFrameSI">
+                        <h2 id="ScoalaInformala">Scoala Infomala de IT</h2>
+                        <iframe name="iframeScoalaInformala" src="https://scoalainformala.ro/" frameborder="yes"
+                            scrolling="yes"></iframe>
+                    </div>
                 </td>
             </tr>
         </table>
